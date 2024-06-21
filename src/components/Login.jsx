@@ -18,8 +18,8 @@ const Login = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/login",
-          { email, password, confirmPassword, role: "Admin" },
+          "https://hospital-management-backend-nodejs.onrender.com/api/v1/user/login",
+          { email, password, confirmPassword, role: "ADMIN" },
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
