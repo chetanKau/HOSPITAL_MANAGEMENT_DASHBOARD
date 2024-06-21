@@ -1,1 +1,1 @@
-## DASHBOARD_URL= https://hospital-management-chetan-admin.netlify.app/login
+## DASHBOARD_URL= https://hospital-management-dashboard-chetan.vercel.app/login
